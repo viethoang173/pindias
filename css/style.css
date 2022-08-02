@@ -1,0 +1,105 @@
+* {
+    font-size: 18px;
+}
+
+section {
+    padding: 40px 0px;
+}
+
+a,
+button {
+    color: black;
+}
+
+/* ================HEADER===================== */
+.navbar-expand-xl .navbar-toggler {
+    display: unset;
+}
+
+header .nav-head {
+    background-image: url(../img/bg-header.jpg);
+}
+
+/* ============HomePage============== */
+/* #myVideo{
+    height: calc(100vh);
+} */
+header .banner {
+    height: calc(100vh);
+    background-image: url(../img/banner-homep.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text {
+    color: #75418c;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, rgba(92, 45, 145, 1) 0%, rgba(129, 41, 144, 1) 50%, rgba(163, 35, 142, 1) 100%);
+    border-color: var(--bs-btn-hover-border-color);
+    color: white;
+}
+
+.bg {
+    color: white;
+    background: linear-gradient(90deg, rgba(92, 45, 145, 1) 0%, rgba(129, 41, 144, 1) 50%, rgba(163, 35, 142, 1) 100%);
+}
+
+.bg-grey {
+    background-color: #e6e6e6;
+}
+
+header .banner .content {
+    background-color: #18002e87;
+}
+
+.search-if .nav-tabs .active {
+    color: white;
+    background: linear-gradient(90deg, rgba(92, 45, 145, 1) 0%, rgba(129, 41, 144, 1) 50%, rgba(163, 35, 142, 1) 100%) !important;
+}
+
+.search-if .search {
+    outline: none;
+}
+
+.img-leftSide {
+    top: 0px;
+    right: 10%;
+}
+
+.rightSide {
+    background-image: url(../img/bg-join-gr.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-body {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn-check:active+.btn:focus,
+.btn-check:checked+.btn:focus,
+.btn.active:focus,
+.btn.show:focus,
+.btn:active:focus {
+    background-color: white;
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    box-shadow: none;
+    background-color:white;
+}
+
+.btn-check:active+.btn,
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:active{
+    background: linear-gradient(90deg, rgba(92, 45, 145, 1) 0%, rgba(129, 41, 144, 1) 50%, rgba(163, 35, 142, 1) 100%) !important;
+}
